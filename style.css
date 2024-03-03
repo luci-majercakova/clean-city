@@ -1,0 +1,177 @@
+:root {
+    --primary-color: rgb(149, 175, 147);
+    --dimmed-color: rgb(216, 228, 206);
+    --secondary-color: white;
+    --green-color: rgb(210, 221, 172);
+
+  }
+
+
+
+body {
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color)
+}
+
+.top,
+.body,
+.footer {
+    display: flex;
+}
+
+.top {
+    flex-direction: column;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    box-shadow: 0px 0.5px 5px 3px var(--secondary-color);
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 800px;
+    max-width: 1300px;
+    flex: 1;
+    padding: 20px;
+}
+
+.header-left {
+    display: flex;
+}
+
+
+.header-right {
+    display: flex;
+}
+
+.logo-txt {
+    font-size: 28px;
+    font-weight: bold;
+}
+.header-link {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo-pt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.body {
+    justify-content: center;
+    background: var(--dimmed-color);
+    flex: 1;
+}
+
+.central-section {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
+
+.pt-1,
+.pt-2,
+.pt-3 {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.pt-2 {
+    justify-content: left;
+}
+
+.pt1-left,
+.pt2-right,
+.pt3-left {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.pt2-right {
+    margin-right: 32px;
+}
+
+.title-1,
+.title-2,
+.title-3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 16px;
+    margin-bottom: 0px;
+}
+
+.txt-1,
+.txt-2,
+.txt-3 {
+    font-size: 16px;
+    margin: 16px;
+    margin-top: 8px;
+}
+
+.pt-1 {
+    background: var(--green-color);
+}
+
+.pt1-img,
+.pt2-img,
+.pt3-img {
+    width: 300px;
+    height: auto;
+    margin: 16px;
+}
+
+.pt-2 {
+    background: var(--secondary-color);
+}
+
+.pt-3 {
+    background: var(--green-color);
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.txt-footer {
+    font-size: 18px;
+}
